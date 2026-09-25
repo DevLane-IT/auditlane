@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="assets/auditlane-banner.svg" alt="AuditLane — Evidence-first website audits with traceable recommendations" width="100%" />
+</p>
+
 # AuditLane
 
 **Evidence-first website auditing for teams that need findings they can trace, review, and act on.**
+
+> **Status:** active development · public product repository · proprietary application source is private
 
 AuditLane is a DevLane product focused on structured website audits across five complementary lanes:
 
@@ -89,6 +95,8 @@ Current product work includes:
 
 The first product version is being designed in **English**.
 
+For the current public direction, see **[ROADMAP.md](ROADMAP.md)**.
+
 ---
 
 ## Public repository
@@ -106,6 +114,13 @@ It is intended for:
 > **The proprietary AuditLane application source code is not published in this repository.**
 
 Security-sensitive implementation details, infrastructure secrets, credentials, internal audit material, and private operational documentation will not be published here.
+
+### Repository guide
+
+- **[ROADMAP.md](ROADMAP.md)** — public product direction
+- **[SECURITY.md](SECURITY.md)** — how security-sensitive reports should be handled
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — useful public feedback and contribution guidance
+- **Issues** — reproducible product/UX issues and public suggestions
 
 ---
 
@@ -129,7 +144,7 @@ GitHub: https://github.com/DevLane-IT
 
 Public product feedback, documentation suggestions, and reproducible UX issues are welcome through this repository as the public project matures.
 
-For security-sensitive matters, please do **not** post exploitable details in a public issue.
+For security-sensitive matters, please do **not** post exploitable details in a public issue. Read **[SECURITY.md](SECURITY.md)** first.
 
 ---
 
