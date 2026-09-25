@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">AuditLane</title>
+  <desc id="desc">Evidence-first website audits with traceable recommendations.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6d63ff"/>
+      <stop offset="1" stop-color="#8d86ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="420" rx="28" fill="#0b0b12"/>
+  <rect x="1" y="1" width="1598" height="418" rx="27" fill="none" stroke="#2d2d3b"/>
+  <g transform="translate(110 105)">
+    <path d="M0 54 L36 0 L72 54 H54 L36 27 L18 54 Z" fill="url(#g)"/>
+    <text x="92" y="50" fill="#f5f5f7" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="700">AuditLane</text>
+    <text x="0" y="112" fill="#b0b0c4" font-family="Inter,Arial,sans-serif" font-size="28">Evidence-first website audits with traceable recommendations.</text>
+    <text x="0" y="164" fill="#77778d" font-family="Inter,Arial,sans-serif" font-size="21">MEASURED · DEMO · UNVERIFIED · AI-GENERATED</text>
+  </g>
+  <g transform="translate(1110 115)" font-family="Inter,Arial,sans-serif">
+    <rect width="350" height="190" rx="18" fill="#15151f" stroke="#30303e"/>
+    <text x="28" y="42" fill="#8d86ff" font-size="16" font-weight="700">FIVE AUDIT LANES</text>
+    <text x="28" y="78" fill="#f5f5f7" font-size="21">Performance</text>
+    <text x="28" y="108" fill="#f5f5f7" font-size="21">Conversion</text>
+    <text x="28" y="138" fill="#f5f5f7" font-size="21">Accessibility · SEO</text>
+    <text x="28" y="168" fill="#f5f5f7" font-size="21">Passive security</text>
+  </g>
+</svg>
