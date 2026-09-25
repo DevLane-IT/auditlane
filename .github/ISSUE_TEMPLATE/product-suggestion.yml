@@ -1,0 +1,26 @@
+name: Product suggestion
+description: Suggest a public product, documentation, or UX improvement
+title: "[Suggestion] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are welcome. AuditLane is a proprietary product, so public suggestions may inform product direction without implying implementation or a release commitment.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Example or context
+      description: Add a concrete example if useful. Do not include sensitive information.
