@@ -1,0 +1,60 @@
+name: Product / UX issue
+description: Report a reproducible public product or UX issue
+title: "[Issue] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve AuditLane.
+
+        Do not include credentials, tokens, private URLs, customer data, or security-sensitive exploit details in a public issue.
+  - type: textarea
+    id: context
+    attributes:
+      label: What were you trying to do?
+      description: Describe the task or workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options:
+        - Audit setup
+        - Audit execution
+        - Findings
+        - Reports
+        - Screens
+        - Flows
+        - Comparison / history
+        - Sharing / export
+        - Account / billing
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, device, and viewport if relevant.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public issue safety
+      options:
+        - label: I have not included secrets, credentials, private customer data, or exploitable security details.
+          required: true
