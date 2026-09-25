@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security-sensitive report
+    url: https://github.com/DevLane-IT/auditlane/security
+    about: Do not publish exploitable details in a public issue. See SECURITY.md first.
