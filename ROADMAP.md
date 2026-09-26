@@ -11,12 +11,14 @@ This roadmap describes the public product direction of AuditLane. It is intentio
 - Avoid turning missing evidence into a positive result.
 
 ### Audit workflow
+- Every audit covers all six dimensions: Conversion, UX, Performance, Accessibility, SEO & Technical quality, and Passive security.
 - Guided audit setup.
 - Bounded audit execution states.
 - Clear success and failure states.
 - Retry paths that do not present failed runs as completed.
 
-### Reporting
+### Fix Plan & reporting
+- One ranked Fix Plan per audit, instead of separate reports per dimension.
 - Structured finding details.
 - Evidence and recommendation separation.
 - Read-only public report sharing.

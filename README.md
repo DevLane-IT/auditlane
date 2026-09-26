@@ -8,13 +8,16 @@
 
 > **Status:** active development · public product repository · proprietary application source is private
 
-AuditLane is a DevLane product focused on structured website audits across five complementary lanes:
+AuditLane is a DevLane product that audits a website across six complementary dimensions:
 
-- **Performance**
 - **Conversion**
+- **UX**
+- **Performance**
 - **Accessibility**
-- **SEO**
+- **SEO & Technical quality**
 - **Passive security**
+
+**Six angles, one ranked list.** The dimensions classify where each problem comes from, but you never receive six separate reports: AuditLane turns every finding into a single prioritised **Fix Plan** that tells you what to fix first, and why.
 
 The core idea is simple: **do not blur observed evidence, demo values, AI interpretation, and unverified claims into one opaque score.**
 
@@ -49,28 +52,31 @@ A recommendation should remain traceable back to the evidence that supports it.
 
 ---
 
-## Five audit lanes
-
-### Performance
-Page-speed and rendering signals, measured values, bottlenecks, and practical remediation priorities.
+## Six audit dimensions
 
 ### Conversion
-UX and conversion observations focused on clarity, hierarchy, decision paths, friction, and evidence-backed recommendations.
+Calls to action, forms, trust signals, friction and decision flow on the paths that lead to a sign-up or a sale.
+
+### UX
+Navigation, readability, mobile behaviour and layout stability.
+
+### Performance
+Loading speed, responsiveness, Core Web Vitals and heavy assets, as visitors actually experience them.
 
 ### Accessibility
-Structured accessibility checks and findings with explicit evidence and remediation guidance.
+Contrast, labels, keyboard navigation and semantics — issues that shut people out.
 
-### SEO
-Technical SEO signals such as metadata, canonicalisation, indexability, and other auditable page-level signals.
+### SEO & Technical quality
+Indexability, metadata, headings, canonical signals, broken links, markup and technical structure.
 
 ### Passive security
-Non-invasive, externally observable security signals. AuditLane does **not** present unavailable security evidence as verified.
+HTTPS, security headers and exposed information — externally observable signals only. No intrusive testing, and AuditLane does **not** present unavailable security evidence as verified.
 
 ---
 
 ## From finding to action
 
-AuditLane is designed around a consistent finding structure:
+Every audit produces one ranked **Fix Plan**. Each finding follows the same structure:
 
 **Issue → Impact → Evidence → Recommendation → Priority**
 
@@ -80,23 +86,27 @@ The goal is not to produce more findings. The goal is to make findings easier to
 
 ## Product preview
 
-The screenshots below are **design previews from the current AuditLane V1 product work**. They may contain illustrative or demo data and should not be interpreted as the output of a live production audit.
+The screenshots below are **design previews from the AuditLane V4 product experience**, built around the single ranked Fix Plan. They use illustrative demo data (`example.com`) and should not be interpreted as the output of a live production audit.
 
-### Audit report
+### Audit overview
+
+The score, the six dimensions and the three findings to fix first — before reading anything else.
 
 <p align="center">
-  <img src="assets/previews/audit-report.png" alt="AuditLane V1 audit report preview" width="100%" />
+  <img src="assets/previews/overview.png" alt="AuditLane V4 audit overview preview" width="100%" />
 </p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>Findings</strong><br/><br/>
-      <img src="assets/previews/findings.png" alt="AuditLane V1 findings preview" width="100%" />
+      <strong>Fix Plan</strong><br/>
+      One ranked list across all six dimensions.<br/><br/>
+      <img src="assets/previews/fix-plan.png" alt="AuditLane V4 Fix Plan preview" width="100%" />
     </td>
     <td width="50%" valign="top">
-      <strong>Screen analysis</strong><br/><br/>
-      <img src="assets/previews/screens-analysis.png" alt="AuditLane V1 screen analysis preview" width="100%" />
+      <strong>Finding detail</strong><br/>
+      What's wrong, how to fix it, and the evidence behind it.<br/><br/>
+      <img src="assets/previews/finding-detail.png" alt="AuditLane V4 finding detail preview" width="100%" />
     </td>
   </tr>
 </table>
@@ -113,7 +123,7 @@ Current product work includes:
 
 - the evidence and provenance model,
 - the audit execution pipeline,
-- audit reports and finding details,
+- the ranked Fix Plan and finding details,
 - screen and journey-flow analysis,
 - audit comparison and history,
 - public read-only report sharing,
