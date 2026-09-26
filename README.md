@@ -78,6 +78,33 @@ The goal is not to produce more findings. The goal is to make findings easier to
 
 ---
 
+## Product preview
+
+The screenshots below are **design previews from the current AuditLane V1 product work**. They may contain illustrative or demo data and should not be interpreted as the output of a live production audit.
+
+### Audit report
+
+<p align="center">
+  <img src="assets/previews/audit-report.png" alt="AuditLane V1 audit report preview" width="100%" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Findings</strong><br/><br/>
+      <img src="assets/previews/findings.png" alt="AuditLane V1 findings preview" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Screen analysis</strong><br/><br/>
+      <img src="assets/previews/screens-analysis.png" alt="AuditLane V1 screen analysis preview" width="100%" />
+    </td>
+  </tr>
+</table>
+
+These previews reflect the product principle used throughout AuditLane: **evidence states and AI interpretation remain explicitly separated**.
+
+---
+
 ## Product direction
 
 AuditLane is currently in active development.
