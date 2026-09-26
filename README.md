@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/auditlane-banner.svg" alt="AuditLane — Evidence-first website audits with traceable recommendations" width="100%" />
+  <img src="assets/auditlane-banner.png" alt="AuditLane — Evidence-first website audits with traceable recommendations" width="100%" />
 </p>
 
 # AuditLane
