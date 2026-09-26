@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/auditlane-banner.png" alt="AuditLane — Evidence-first website audits with traceable recommendations" width="100%" />
+  <img src="assets/auditlane-banner.png" alt="AuditLane — Find what’s costing your website conversions. Six angles, one ranked list." width="100%" />
 </p>
 
 # AuditLane
