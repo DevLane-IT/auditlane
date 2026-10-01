@@ -173,7 +173,9 @@ Product previews, screenshots, sample metrics, and demo reports may contain **il
 
 AuditLane is a product by **DevLane**.
 
-GitHub: https://github.com/DevLane-IT
+GitHub: https://github.com/DevLane-IT/auditlane  
+LinkedIn: https://www.linkedin.com/company/auditlane  
+X: https://x.com/Auditlane
 
 ---
 
